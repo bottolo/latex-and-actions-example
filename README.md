@@ -2,7 +2,7 @@
 
 This repo shows a minimal Latex example and implements a GitHub action that automatically builds an artifact containing the compiled PDF Latex document.
 
-After every push on the `main` branch an GitHub action is triggered. The action compiles a latex document and publishes it as an artifact.
+After every push on the `main` branch a GitHub action is triggered. The action compiles a latex document and publishes it as an artifact.
 
 ## Latex installation
 
