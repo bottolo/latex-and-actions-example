@@ -1,0 +1,40 @@
+% Specify the document type, and some style parameters
+\documentclass{article}
+
+% Package to define margins, among other things
+\usepackage[margin=3cm]{geometry}
+
+% Package for figures
+\usepackage{graphicx}
+
+% Package to define colors
+\usepackage[dvipsnames]{xcolor}
+
+% This package activates the links inside the text
+\usepackage{hyperref}
+% Customization of hyperref
+\hypersetup{
+	colorlinks=true,
+	linkcolor=Black
+}
+
+% Define document properties
+\title{A \LaTeX{} example document}
+\author{Mario Rossi, Luigi Bianchi}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+% Change links to blue after table of contents
+\hypersetup{
+	linkcolor=Blue
+}
+
+\clearpage
+
+\input{chapters/introduction.tex}
+\input{chapters/first_chapter.tex}
+
+\end{document}
